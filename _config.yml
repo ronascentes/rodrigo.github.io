@@ -2,7 +2,7 @@ title: Rodrigo Nascentes
 description: 
 google_analytics: 
 show_downloads: false
-theme: jekyll-theme-architect
+theme: jekyll-theme-slate
 
 gems:
   - jekyll-mentions
