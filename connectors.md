@@ -2,7 +2,10 @@ layout: page
 title: "English tips for Brazilians: Connectors"
 permalink: /connectors/
 
+# English tips for Brazilians: Connectors
+
 First off, I’m not a teacher neither an expert in English. I work for a multinational company so speaking English is critical for my work activities. I just want to share with you some tips that I have learned.
+
 Do you know CONNECTORS? Connectors are words (or conjunctions) used to join two phrases, doing a relationship between them. A sample in Portuguese: portanto, logo, pois, como, mas, e, embora, porque, entretanto. Here you can see a list of some connectors that you can use:
 
 ADDITION
