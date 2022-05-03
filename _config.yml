@@ -1,10 +1,24 @@
 title: Rodrigo Nascentes
+author:
+  name: ronascentes
 description: 
 google_analytics: 
 show_downloads: false
-theme: jekyll-theme-slate
+theme: minima
 markdown: GFM
 highlighter: rouge
 
+show_excerpts: false # set to true to show excerpts on the homepage
+
+minima:
+  # generate social links in footer
+  social_links:
+    twitter: ronascentes 
+    github:  ronascentes
+
 gems:
   - jekyll-mentions
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
