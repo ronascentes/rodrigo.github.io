@@ -21,7 +21,7 @@ both… and = ambos, tanto… como
 not only… but also = nao apenas… mas tb
 also
 
-CONTRAST, CONCESSION
+CONTRAST or CONCESSION
 but = mas
 however = entretanto
 nevertheless = não obstante
@@ -41,7 +41,7 @@ PURPOSE
 in order to = a fim de
 so as so = de modo que
 
-CONSEQUENCE, CONCLUSION
+CONSEQUENCE or CONCLUSION
 therefore = portanto
 consequently = consequentemente
 accordingly = de acordo
@@ -77,7 +77,7 @@ So as not to
 So that
 The wordy expression due to the fact that should be replaced by because or since.
 
-DOUBT OR HYPOTHESIS
+DOUBT or HYPOTHESIS
 perhaps = talvez
 maybe = talvez
 possibly = possivelmente
