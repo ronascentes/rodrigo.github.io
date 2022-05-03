@@ -4,7 +4,7 @@ author:
 description: 
 google_analytics: 
 show_downloads: false
-theme: minima
+theme: jekyll-theme-slate
 markdown: GFM
 highlighter: rouge
 
