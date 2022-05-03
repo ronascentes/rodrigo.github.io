@@ -1,6 +1,6 @@
-layout: page
-title: "English tips for Brazilians: Connectors"
-permalink: /connectors/
+layout: page  
+title: "English tips for Brazilians: Connectors"  
+permalink: /connectors/  
 
 # English tips for Brazilians: Connectors
 
@@ -8,18 +8,18 @@ First off, I’m not a teacher neither an expert in English. I work for a multin
 
 Do you know CONNECTORS? Connectors are words (or conjunctions) used to join two phrases, doing a relationship between them. A sample in Portuguese: portanto, logo, pois, como, mas, e, embora, porque, entretanto. Here you can see a list of some connectors that you can use:
 
-ADDITION
-and = e
-in addition = alem disso
-furthermore = alem disso
-besides = alem disso
-moreover = alem disso
-as well as = tambem, assim como, bem como
-also = tambem
-apart from = com exceção de
-both… and = ambos, tanto… como
-not only… but also = nao apenas… mas tb
-also
+ADDITION  
+and = e  
+in addition = alem disso  
+furthermore = alem disso  
+besides = alem disso  
+moreover = alem disso  
+as well as = tambem, assim como, bem como  
+also = tambem  
+apart from = com exceção de  
+both… and = ambos, tanto… como  
+not only… but also = nao apenas… mas tb  
+also  
 
 CONTRAST or CONCESSION
 but = mas
