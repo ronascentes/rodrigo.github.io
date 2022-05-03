@@ -1,7 +1,3 @@
-layout: page  
-title: "English tips for Brazilians: Connectors"  
-permalink: /connectors/  
-
 # English tips for Brazilians: Connectors
 
 First off, I’m not a teacher neither an expert in English. I work for a multinational company so speaking English is critical for my work activities. I just want to share with you some tips that I have learned.
@@ -21,98 +17,98 @@ both… and = ambos, tanto… como
 not only… but also = nao apenas… mas tb  
 also  
 
-CONTRAST or CONCESSION
-but = mas
-however = entretanto
-nevertheless = não obstante
-yet = entretanto, ainda
-nonetheless = não obstante
-despite that = apesar de
-in spite of = apesar de
-although = embora
-even thought = embora
-thought = embora
-raster than = em vez de
-instead of = em vez de
-Whereas, meanwhile = enquanto
-On the other hand
+CONTRAST or CONCESSION  
+but = mas  
+however = entretanto  
+nevertheless = não obstante  
+yet = entretanto, ainda  
+nonetheless = não obstante  
+despite that = apesar de  
+in spite of = apesar de  
+although = embora  
+even thought = embora  
+thought = embora  
+raster than = em vez de  
+instead of = em vez de  
+Whereas, meanwhile = enquanto  
+On the other hand  
 
-PURPOSE
-in order to = a fim de
-so as so = de modo que
+PURPOSE  
+in order to = a fim de  
+so as so = de modo que  
 
-CONSEQUENCE or CONCLUSION
-therefore = portanto
-consequently = consequentemente
-accordingly = de acordo
-fence = pois, entao, dai
-as a result = consequentemente
-thus = assim
-Thereby: because of, or by means of, what has just been mentioned
-The diet makes the blood less sticky, thereby helping to prevent heart disease.
-so = entao, pois
-then = entao
-finally = finalmente
-Otherwise= de resto
-In summary
-To sum up
-To conclude
-In conclusion
+CONSEQUENCE or CONCLUSION  
+therefore = portanto  
+consequently = consequentemente  
+accordingly = de acordo  
+fence = pois, entao, dai  
+as a result = consequentemente  
+thus = assim  
+Thereby: because of, or by means of, what has just been mentioned  
+The diet makes the blood less sticky, thereby helping to prevent heart disease.  
+so = entao, pois  
+then = entao  
+finally = finalmente  
+Otherwise= de resto  
+In summary  
+To sum up  
+To conclude  
+In conclusion  
 
-ALTERNATIVE
-otherwise = por outro lado
-or = ou
-or else = ou entao, ou ainda
-either… or = ou… ou
-whereas = enquanto
-while = enquanto
-whilst= enquanto
-CAUSE / REASON
-because = porque
-due to = devido a
-as = porque
-since = uma vez que
-In order to
-So as not to
-So that
-The wordy expression due to the fact that should be replaced by because or since.
+ALTERNATIVE  
+otherwise = por outro lado  
+or = ou  
+or else = ou entao, ou ainda  
+either… or = ou… ou  
+whereas = enquanto  
+while = enquanto  
+whilst= enquanto  
+CAUSE / REASON  
+because = porque  
+due to = devido a  
+as = porque  
+since = uma vez que  
+In order to  
+So as not to  
+So that  
+The wordy expression due to the fact that should be replaced by because or since.  
 
-DOUBT or HYPOTHESIS
-perhaps = talvez
-maybe = talvez
-possibly = possivelmente
+DOUBT or HYPOTHESIS  
+perhaps = talvez  
+maybe = talvez  
+possibly = possivelmente  
 
-EMPHASIS
-that is = isto é
-in other words = em outras palavras
-in short = em resumo
-in brief = em resumo
-that is to say = quer dizer
-i. e. = isto é
+EMPHASIS  
+that is = isto é  
+in other words = em outras palavras  
+in short = em resumo  
+in brief = em resumo  
+that is to say = quer dizer  
+i. e. = isto é  
 
-COMPARISON
-like = como
-than = do que
-as = como
-Likewise
-Similarly
+COMPARISON  
+like = como  
+than = do que  
+as = como  
+Likewise  
+Similarly  
 
-ILLUSTRATION
-e.g. = por exemplo
-for instance = por exemplo
-for example = por exemplo
-such as = tal como
-namely = a saber
-viz = quer dizer
+ILLUSTRATION  
+e.g. = por exemplo  
+for instance = por exemplo  
+for example = por exemplo  
+such as = tal como  
+namely = a saber  
+viz = quer dizer  
 
-CONDITION
-if = se
-unless = se nao, a menos que
-provided that = uma vez que, se
-on condition that = desde que
-as long as = uma vez que
-subject to = sujeito a
-whether = e
-as = enquanto
-as = quando
-Otherwise
+CONDITION  
+if = se  
+unless = se nao, a menos que  
+provided that = uma vez que, se  
+on condition that = desde que  
+as long as = uma vez que  
+subject to = sujeito a  
+whether = e  
+as = enquanto  
+as = quando  
+Otherwise  
