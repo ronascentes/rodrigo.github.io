@@ -53,7 +53,8 @@
 
     <style>
       :root {
-        --pm-paragraph-font-size: 1.2em;
+        --pm-paragraph-font-size: 1em;
+        --pm-paragraph-font-family: var(--pm-font-family-primary);
       }
 
       .plume li a {
@@ -69,48 +70,40 @@
   <body class="plume">
     <div class="pm-container">
       <h1>{{blog_title}}</h1>
-      <h2 class="pm-text-success pm-h4">{{blog_description}}</h2>
+      <h2 class="-pm-app-text-color pm-h4">{{blog_description}}</h2>
       <hr />
 
       <p>
-        Hi, I'm Rodrigo Nascentes. I'm a database engineer and am always looking
-        to automate manual tasks to make the DBA life easier. I am a confirmed
-        nerd, an avid scuba diver, a volleyball player and a fabulous barbecue
-        cook. I live in Porto Alegre, RS, Brasil.
+        Olá, eu sou o Rodrigo. Sou um veterano na TI como engenheiro de banco de
+        dados e um apaixonado pelo desenvolvimento de scripts de automação.
+        Estou sempre em busca de automatizar tudo o que for possível para
+        facilitar a vida do DBA.
       </p>
 
       <p>
-        I created
+        Eu criei
         <a href="https://github.com/ronascentes/sp_who3" target="_blank"
           >sp_who3</a
         >
-        an open source alternative to the sp_who for SQL Server.
+        que é uma alternativa de código aberto ao sp_who do SQL Server.
       </p>
 
       <p>
-        I use Twitter a lot (mostly <i>tweet</i> in Portuguese) but I usually
-        don't speak about technology so much, my account is
+        Uso regularmente o Twitter (
         <a href="https://twitter.com/ronascentes" target="_blank"
           >@ronascentes</a
-        >. I also have
+        >), mas tenho também
         <a href="https://www.linkedin.com/in/rodrigonascentes/" target="_blank"
           >LinkedIn</a
-        >,
-        <a href="https://github.com/ronascentes" target="_blank">GitHub</a> and
+        >, <a href="https://github.com/ronascentes" target="_blank">GitHub</a> e
         <a href="https://gist.github.com/ronascentes" target="_blank"
           >GitHub Gist</a
-        >.
+        >. Quando não estou na frente do computador, posso estar tocando
+        guitarra ou fazendo um churrasco. Aliás sou um baita churrasqueiro! Moro
+        em Porto Alegre, RS, Brasil.
       </p>
 
-      <p>
-        If you are asking yourself,
-        <a href="https://en.wikipedia.org/wiki/Churrasco" target="_blank"
-          >Churrasco</a
-        >
-        is the term for a barbecue which originated in southern Brazil.
-      </p>
-
-      <h3>Posts</h3>
+      <h3>Publicações</h3>
 
       {{posts_feed}}
     </div>
