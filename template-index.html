@@ -50,11 +50,22 @@
       rel="stylesheet"
       href="https://unpkg.com/1post@1.0.3/themes/{{blog_theme}}.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <style>
       :root {
         --pm-paragraph-font-size: 1.1em;
         --pm-paragraph-font-family: var(--pm-font-family-primary);
+      }
+
+      .plume h5 a {
+        color: var(--pm-app-text-color);
       }
 
       .plume li a {
@@ -70,42 +81,53 @@
   <body class="plume">
     <div class="pm-container">
       <h1>{{blog_title}}</h1>
-      <h2 class="-pm-app-text-color pm-h4">{{blog_description}}</h2>
+      <!-- <h2 class="-pm-app-text-color pm-h4">{{blog_description}}</h2> -->
+      <h5>
+        <a href="https://twitter.com/ronascentes"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/rodrigonascentes/"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/ronascentes"
+          ><i class="fab fa-github"></i
+        ></a>
+      </h5>
       <hr />
 
-      <p>
-        Olá, eu sou o Rodrigo. Sou um veterano na TI como engenheiro de banco de
-        dados e um apaixonado pelo desenvolvimento de scripts de automação.
-        Estou sempre em busca de automatizar tudo o que for possível para
-        facilitar a vida do DBA.
-      </p>
-
-      <p>
-        Eu criei
-        <a href="https://github.com/ronascentes/sp_who3" target="_blank"
-          >sp_who3</a
+      <img
+        src="img01.jpg"
+        alt="Code image 1"
+        style="max-width: 100%; border-radius: 10px"
+      />
+      <p class="pm-text-center" style="--pm-paragraph-font-size: 0.8em">
+        Photo by
+        <a
+          href="https://unsplash.com/es/@pietrozj?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Pietro Jeng</a
         >
-        que é uma alternativa de código aberto ao sp_who do SQL Server.
+        on
+        <a
+          href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Unsplash</a
+        >
       </p>
 
-      <p>
-        Uso regularmente o Twitter (
-        <a href="https://twitter.com/ronascentes" target="_blank"
-          >@ronascentes</a
-        >), mas tenho também
-        <a href="https://www.linkedin.com/in/rodrigonascentes/" target="_blank"
-          >LinkedIn</a
-        >, <a href="https://github.com/ronascentes" target="_blank">GitHub</a> e
-        <a href="https://gist.github.com/ronascentes" target="_blank"
-          >GitHub Gist</a
-        >. Quando não estou na frente do computador, posso estar tocando
-        guitarra ou fazendo um churrasco. Aliás sou um baita churrasqueiro! Moro
-        em Porto Alegre, RS, Brasil.
-      </p>
-
-      <h3>Publicações</h3>
+      <h3>Posts</h3>
 
       {{posts_feed}}
+      <hr />
+      <p style="--pm-paragraph-font-size: 0.7em">
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+          ><img
+            alt="Licença Creative Commons"
+            style="border-width: 0"
+            src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a
+        ><br />Este obra está licenciado com uma Licença
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+          >Creative Commons Atribuição 4.0 Internacional</a
+        >.
+      </p>
     </div>
   </body>
 </html>

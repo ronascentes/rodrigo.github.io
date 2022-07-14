@@ -56,10 +56,6 @@
         font-size: var(--pm-paragraph-font-size);
       }
 
-      h1 {
-        font-size: 40px;
-      }
-
       .plume li {
         font-family: var(--pm-font-family-secondary);
         font-size: var(--pm-paragraph-font-size);
@@ -68,7 +64,7 @@
   </head>
   <body class="plume">
     <div class="pm-container">
-      <h1>{{post_title}}</h1>
+      <h2>{{post_title}}</h2>
 
       <p>
         <a href="../..">← ← ←</a> &nbsp; {{post_created_at_formated}} |
@@ -82,7 +78,18 @@
 
       {{post}}
     </div>
-
+    <hr />
+    <p style="--pm-paragraph-font-size: 0.7em">
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+        ><img
+          alt="Licença Creative Commons"
+          style="border-width: 0"
+          src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a
+      ><br />Este obra está licenciado com uma Licença
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+        >Creative Commons Atribuição 4.0 Internacional</a
+      >.
+    </p>
     <!-- Prism Code Highlighting -->
     <script src="https://unpkg.com/prismjs@1.28.0/components/prism-core.min.js"></script>
     <script src="https://unpkg.com/prismjs@1.28.0/plugins/autoloader/prism-autoloader.min.js"></script>
