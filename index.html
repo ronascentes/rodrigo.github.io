@@ -22,10 +22,7 @@
     <meta property="og:description" content="" />
     <meta property="og:site_name" content="Rodrigo Nascentes" />
     <meta property="og:url" content="https://ronascentes.github.io" />
-    <meta
-      property="og:image"
-      content="https://ronascentes.github.io/card.jpg"
-    />
+    <meta property="og:image" content="https://ronascentes.github.io/card.jpg" />
     <meta property="og:type" content="Website" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="627" />
@@ -34,10 +31,7 @@
     <meta name="twitter:creator" content="Rodrigo Nascentes" />
     <meta name="twitter:title" content="Rodrigo Nascentes" />
     <meta name="twitter:description" content="" />
-    <meta
-      name="twitter:image:src"
-      content="https://ronascentes.github.io/card.jpg"
-    />
+    <meta name="twitter:image:src" content="https://ronascentes.github.io/card.jpg" />
     <!--  -->
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -83,6 +77,24 @@
       .plume a {
         font-size: var(--pm-paragraph-font-size);
       }
+
+      .container {
+        width: 400px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .column {
+        float: left;
+        width: 50%;
+      }
     </style>
   </head>
   <body class="plume">
@@ -102,60 +114,43 @@
       </h5>
       <hr />
 
-      <img
-        src="img01.jpg"
-        alt="Code image 1"
-        style="max-width: 100%; border-radius: 10px"
-      />
-
-      <p class="pm-text-center" style="--pm-paragraph-font-size: 0.8em">
-        Photo by
-        <a
-          href="https://unsplash.com/es/@pietrozj?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-          >Pietro Jeng</a
-        >
-        on
-        <a
-          href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-          >Unsplash</a
-        >
-      </p>
+      <div class="container">
+        <div class="row">
+          <div class="column">
+            <img src="img01.png" alt="Code image 1" style="max-width: 125%" />
+          </div>  
+          <div class="column">
+            <img src="img02.png" alt="Code image 1" style="max-width: 100%" />
+          </div> 
+        </div>
+      </div>
 
       <h3>Posts</h3>
 
       <ul>
-        <li style="list-style: none">
-          <article>
-            <a href="posts/sql-server-recursion-cte">
-              <p class="pm-h6 pm-no-margin">
-                <strong
-                  >§ SQL Server: Recursividade com WITH common_table_expression
-                  (CTE)</strong
-                >
-              </p>
-            </a>
+      <li style="list-style: none"> 
+        <article>
+          <a href="posts/sql-server-recursion-cte">
+            <p class="pm-h6 pm-no-margin"><strong>§ SQL Server: Recursividade com WITH common_table_expression (CTE)</strong></p>
+          </a>
+          
+          <p class="pm-no-margin">Um exemplo do uso de common table expression (CTE) usando consultas recursivas.</p>
+          <p class="pm-disabled">5/4/2022, 1:20:10 PM</p>
+        </article>
+      </li>
+    
 
-            <p class="pm-no-margin">
-              Um exemplo do uso de common table expression (CTE) usando
-              consultas recursivas.
-            </p>
-            <p class="pm-disabled">5/4/2022, 1:20:10 PM</p>
-          </article>
-        </li>
-
-        <li style="list-style: none">
-          <article>
-            <a href="posts/english-tips-for-brazilians-connectors">
-              <p class="pm-h6 pm-no-margin">
-                <strong>§ English tips for Brazilians: Connectors</strong>
-              </p>
-            </a>
-
-            <p class="pm-no-margin">Post description</p>
-            <p class="pm-disabled">5/3/2022, 1:32:39 PM</p>
-          </article>
-        </li>
-      </ul>
+      <li style="list-style: none"> 
+        <article>
+          <a href="posts/english-tips-for-brazilians-connectors">
+            <p class="pm-h6 pm-no-margin"><strong>§ English tips for Brazilians: Connectors</strong></p>
+          </a>
+          
+          <p class="pm-no-margin">Post description</p>
+          <p class="pm-disabled">5/3/2022, 1:32:39 PM</p>
+        </article>
+      </li>
+    </ul>
       <hr />
       <p style="--pm-paragraph-font-size: 0.7em">
         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"

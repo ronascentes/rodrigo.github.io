@@ -76,6 +76,24 @@
       .plume a {
         font-size: var(--pm-paragraph-font-size);
       }
+
+      .container {
+        width: 400px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .column {
+        float: left;
+        width: 50%;
+      }
     </style>
   </head>
   <body class="plume">
@@ -95,23 +113,16 @@
       </h5>
       <hr />
 
-      <img
-        src="img01.jpg"
-        alt="Code image 1"
-        style="max-width: 100%; border-radius: 10px"
-      />
-      <p class="pm-text-center" style="--pm-paragraph-font-size: 0.8em">
-        Photo by
-        <a
-          href="https://unsplash.com/es/@pietrozj?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-          >Pietro Jeng</a
-        >
-        on
-        <a
-          href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-          >Unsplash</a
-        >
-      </p>
+      <div class="container">
+        <div class="row">
+          <div class="column">
+            <img src="img01.png" alt="Code image 1" style="max-width: 125%" />
+          </div>  
+          <div class="column">
+            <img src="img02.png" alt="Code image 1" style="max-width: 100%" />
+          </div> 
+        </div>
+      </div>
 
       <h3>Posts</h3>
 
