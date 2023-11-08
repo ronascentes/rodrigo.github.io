@@ -94,55 +94,27 @@
         float: left;
         width: 50%;
       }
+
+      .logo {
+        text-align: center;
+      }
+
     </style>
   </head>
   <body class="plume">
     <div class="pm-container">
       <h1>{{blog_title}}</h1>
-      <h2 class="-pm-app-text-color pm-h4">{{blog_description}}</h2>
+      <!-- <h2 class="-pm-app-text-color pm-h4">{{blog_description}}</h2> -->
       <hr />
 
-      <div class="container">
-        <div class="row">
-          <div class="column">
-            <img src="img01.png" alt="Code image 1" style="max-width: 75%" />
-          </div>  
-          <div class="column">
-            <img src="img02.png" alt="Code image 1" style="max-width: 62%" />
-          </div> 
-        </div>
+      <div class="logo">
+        <img src="img01.png" alt="Code image 1" style="max-width: 35%; margin: auto; padding: 25px;" />
       </div>
-      <h3>Opa,</h3>
-      <p>Meu nome é Rodrigo e sou engenheiro de dados (ou DBA para os mais saudosistas). Neste blog escrevo ocasionalmente sobre banco de dados e suas aplicações e, 
-        também, sobre algumas outras dicas elegantes – ou não – do mundo da Tecnologia da Informação.</p>
 
-      <p><i>Todo o conteúdo é 100% criado por seres humanos (no caso eu), sem qualquer ajuda de IA.</i></p>
-
-      <h3>Posts</h3>
+      Check out my <a href="https://rodrigo.bearblog.dev/">blog</a> for more content.
       
       {{posts_feed}}
-      <hr />
-      <h5>
-        <a href="https://twitter.com/ronascentes"
-          ><i class="fab fa-twitter"></i
-        ></a>
-        <a href="https://www.linkedin.com/in/rodrigonascentes/"
-          ><i class="fab fa-linkedin"></i
-        ></a>
-        <a href="https://github.com/ronascentes"
-          ><i class="fab fa-github"></i
-        ></a>
-      </h5>
-      <p style="--pm-paragraph-font-size: 0.7em">
-        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
-          ><img
-            alt="Licença Creative Commons"
-            style="border-width: 0"
-            src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a
-        ><br />Este obra está licenciado com uma Licença
-        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
-          >Creative Commons Atribuição 4.0 Internacional</a
-        >.
+   
       </p>
     </div>
   </body>
